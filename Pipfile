@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+pylint-django = "*"
+
+[packages]
+django = "==3.0.5"
+djangorestframework = "==3.11.0"
+psycopg2-binary = "==2.8.5"
+django-sequences = "==2.4"
+django-concurrency = "==2.1.1"
+msal = "==1.3.0"
+uwsgi = "==2.0.18"
+wheel = "==0.34.2"
+jinjasql = "*"
+
+[requires]
+python_version = "3.8"
